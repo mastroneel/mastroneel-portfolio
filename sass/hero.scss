@@ -1,0 +1,26 @@
+.hero {
+  background: url('../img/hero-1.jpg');
+  height: 100vh;
+  width: 100%;
+}
+h1 {
+  background-color: #fff;
+  overflow: hidden;
+  display: inline-block;
+  height: 97vh;
+  width: 100%;
+  font-weight: bold;
+  font-family: Helvetica;
+  color: transparent;
+  font-size: 100px;
+  padding-top: 100px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+span {
+  background: url('../img/hero-1.jpg');
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  display:block;
+}

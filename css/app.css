@@ -8340,9 +8340,9 @@ span {
 
 @media (max-width: 450px) {
   .contact form {
-    width: 300px; }
+    width: 280px; }
     .contact form input, .contact form select {
-      width: 300px; } }
+      width: 280px; } }
 .footer {
   height: 220px;
   background-color: #262626; }

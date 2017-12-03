@@ -226,23 +226,21 @@
       </div>
       <div class="row">
         <div class="col-xs-12">
-          <form ction="https://formspree.io/laurenmastroni@gmail.com" method="POST">
-            <h3>Send me a message below...</h3>
-            <p>Your Name</p>
-            <input type="text" name="name">
-            <p>What do you need?</p>
-            <select class="small-input" name="companytype">
-              <option value="Development">Development</option>
-              <option value="Design">Design</option>
-              <option value="Both">Both</option>
-            </select>
-            <p>Email Address</p>
-            <input type="text" name="email">
-            <p>Message</p>
-            <input type="text" name="message">
-            <div class="button-container">
-              <button class="button" type="submit" name="submit">Submit</button>
-            </div>
+          <form action="https://formspree.io/laurenmastroni@gmail.com"
+                method="POST">
+              <p>Your Name</p>
+              <input type="text" name="name">
+              <p>What do you need?</p>
+              <select class="small-input" name="companytype">
+                <option value="Development">Development</option>
+                <option value="Design">Design</option>
+                <option value="Both">Both</option>
+              </select>
+              <p>Email Address</p>
+              <input type="email" name="_replyto">
+              <p>Message</p>
+              <input type="text" name="message">
+              <button type="submit" value="Submit">Submit</button>
           </form>
         </div>
       </div>

@@ -6,6 +6,7 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 @import url("https://fonts.googleapis.com/css?family=Poppins");
+@import url(../node_modules/lightbox2/dist/css/lightbox.css);
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -8304,16 +8305,155 @@ span {
     width: 90%;
     margin-top: 40px; }
   .work a, .work a:visited {
-    color: #262626;
+    color: #fff;
     font-family: 'Poppins', sans-serif;
     margin-top: 10px;
-    font-size: 15px;
+    font-size: 25px;
     transition: 0.2s;
-    text-decoration: none; }
+    text-decoration: none;
+    letter-spacing: 1px; }
     .work a:hover, .work a:visited:hover {
       color: #03d4a5;
       transition: 0.2s; }
+  .work .paid, .work .portfolio {
+    width: 550px;
+    height: 275px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    margin: 20px auto; }
+    .work .paid .image-overlay, .work .portfolio .image-overlay {
+      width: 550px;
+      height: 275px;
+      padding-top: 90px;
+      background-color: rgba(0, 0, 0, 0.6);
+      opacity: 0;
+      transition: 0.3s; }
+    .work .paid:hover .image-overlay, .work .portfolio:hover .image-overlay {
+      opacity: 1;
+      transition: 0.3s; }
+  .work .paid-1 {
+    background-image: url("../img/hana.png"); }
+  .work .paid-2 {
+    background-image: url("../img/ol-major.png"); }
+  .work .paid-3 {
+    background-image: url("../img/hint.png"); }
+  .work .paid-4 {
+    background-image: url("../img/fundio.png"); }
+  .work .paid-5 {
+    background-image: url("../img/turing.png"); }
+  .work .paid-6 {
+    background-image: url("../img/platinum.png"); }
+  .work .paid-7 {
+    background-image: url("../img/fortune.png"); }
+  .work .portfolio-1 {
+    background-image: url("../img/jekyll.png"); }
+  .work .portfolio-2 {
+    background-image: url("../img/business.png"); }
+  .work .portfolio-3 {
+    background-image: url("../img/restaurant.png"); }
+  .work .portfolio-4 {
+    background-image: url("../img/card.png"); }
+  .work .portfolio-5 {
+    background-image: url("../img/travel.png"); }
+  .work .portfolio-6 {
+    background-image: url("../img/shoes.png"); }
 
+.lightbox .lb-outerContainer {
+  width: 90% !important;
+  height: auto !important; }
+  .lightbox .lb-outerContainer .lb-container {
+    width: 100% !important;
+    height: auto !important; }
+    .lightbox .lb-outerContainer .lb-container .lb-image {
+      width: 100% !important;
+      height: auto !important; }
+
+@media (min-width: 1466px) {
+  .work .paid, .work .portfolio {
+    width: 660px;
+    height: 330px; }
+    .work .paid .image-overlay, .work .portfolio .image-overlay {
+      width: 660px;
+      height: 330px;
+      padding-top: 110px; } }
+@media (min-width: 1800px) {
+  .work .paid, .work .portfolio {
+    width: 792px;
+    height: 396px; }
+    .work .paid .image-overlay, .work .portfolio .image-overlay {
+      width: 792px;
+      height: 396px;
+      padding-top: 110px; } }
+@media (min-width: 2271px) {
+  .work .paid, .work .portfolio {
+    width: 950px;
+    height: 475px; }
+    .work .paid .image-overlay, .work .portfolio .image-overlay {
+      width: 950px;
+      height: 475px;
+      padding-top: 110px; } }
+@media (max-width: 1155px) {
+  .work .paid, .work .portfolio {
+    width: 440px;
+    height: 220px; }
+    .work .paid .image-overlay, .work .portfolio .image-overlay {
+      width: 440px;
+      height: 220px;
+      padding-top: 70px; } }
+@media (max-width: 932px) {
+  .work .paid, .work .portfolio {
+    width: 396px;
+    height: 198px; }
+    .work .paid .image-overlay, .work .portfolio .image-overlay {
+      width: 396px;
+      height: 198px;
+      padding-top: 60px; } }
+@media (max-width: 841px) {
+  .work .paid, .work .portfolio {
+    width: 356px;
+    height: 178px; }
+    .work .paid .image-overlay, .work .portfolio .image-overlay {
+      width: 356px;
+      height: 178px;
+      padding-top: 50px; } }
+@media (min-width: 768px) {
+  .work .mobile-links {
+    display: none; } }
+@media (max-width: 767px) {
+  .work .mobile-links {
+    display: block;
+    margin-top: -15px;
+    margin-bottom: 20px;
+    line-height: 1.8; }
+    .work .mobile-links a, .work .mobile-links a:visited {
+      color: #262626;
+      font-size: 15px; }
+  .work .paid, .work .portfolio {
+    width: 550px;
+    height: 275px; }
+    .work .paid .image-overlay, .work .portfolio .image-overlay {
+      display: none; } }
+@media (max-width: 624px) {
+  .work .paid, .work .portfolio {
+    width: 440px;
+    height: 220px; } }
+@media (max-width: 516px) {
+  .work .paid, .work .portfolio {
+    width: 396px;
+    height: 198px; } }
+@media (max-width: 430px) {
+  .work .paid, .work .portfolio {
+    width: 356px;
+    height: 178px; } }
+@media (max-width: 400px) {
+  .work .paid, .work .portfolio {
+    width: 320px;
+    height: 160px; } }
+@media (max-width: 350px) {
+  .work .paid, .work .portfolio {
+    width: 288px;
+    height: 144px; } }
 .contact {
   padding: 40px 0 60px 0; }
   .contact form {

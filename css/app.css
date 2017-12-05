@@ -8321,6 +8321,9 @@ span {
     .work button:hover {
       color: #66b7bd;
       transition: 0.2s; }
+  .work p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 25px; }
   .work a, .work a:visited {
     color: #fff;
     font-family: 'Poppins', sans-serif;
@@ -8378,6 +8381,8 @@ span {
     background-image: url("../img/travel.png"); }
   .work .portfolio-6 {
     background-image: url("../img/shoes.png"); }
+  .work .portfolio-7 {
+    background-image: url("../img/b-and-b-design.png"); }
 
 .lightbox .lb-outerContainer {
   width: 90% !important;

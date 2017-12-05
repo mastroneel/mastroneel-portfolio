@@ -8468,6 +8468,9 @@ span {
     .work .mobile-links a, .work .mobile-links a:visited {
       color: #262626;
       font-size: 15px; }
+    .work .mobile-links p {
+      color: #262626;
+      font-size: 15px; }
   .work .paid, .work .portfolio {
     width: 550px;
     height: 275px; }

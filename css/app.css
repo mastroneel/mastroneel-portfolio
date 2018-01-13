@@ -8371,6 +8371,10 @@ span {
     background-image: url("../img/fortune.png"); }
   .work .paid-8 {
     background-image: url("../img/podsearch.png"); }
+  .work .paid-9 {
+    background-image: url("../img/hm-the-king.png"); }
+  .work .paid-10 {
+    background-image: url("../img/podsearch-2.png"); }
   .work .portfolio-1 {
     background-image: url("../img/jekyll.png"); }
   .work .portfolio-2 {
@@ -8387,6 +8391,10 @@ span {
     background-image: url("../img/b-and-b-design.png"); }
   .work .portfolio-8 {
     background-image: url("../img/farmers-market-design.png"); }
+  .work .portfolio-9 {
+    background-image: url("../img/britecore.png"); }
+  .work .portfolio-10 {
+    background-image: url("../img/ice-fox.png"); }
 
 .lightbox .lb-outerContainer {
   width: 90% !important;

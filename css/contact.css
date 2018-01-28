@@ -1,0 +1,31 @@
+.contact {
+  padding: 40px 0 60px 0; }
+  .contact form {
+    width: 400px;
+    margin: 0 auto; }
+    .contact form p {
+      text-align: left;
+      margin-top: 30px;
+      font-size: 20px; }
+    .contact form input, .contact form select {
+      width: 400px;
+      height: 40px;
+      border: 2px solid #262626;
+      background: transparent;
+      border-radius: 2px;
+      margin-top: -10px; }
+    .contact form button {
+      margin-top: 20px;
+      color: #fff;
+      background-color: #262626;
+      border: 1px solid #262626;
+      border-radius: 2px;
+      padding: 15px 40px; }
+
+@media (max-width: 450px) {
+  .contact form {
+    width: 280px; }
+    .contact form input, .contact form select {
+      width: 280px; } }
+
+/*# sourceMappingURL=contact.css.map */

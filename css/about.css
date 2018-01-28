@@ -1,0 +1,52 @@
+.about {
+  min-height: 100vh;
+  padding: 30px 0; }
+  .about .row {
+    width: 90%;
+    margin: 10px auto; }
+    .about .row p {
+      padding: 10px 20px;
+      line-height: 1.7;
+      font-size: 16px; }
+  .about i {
+    color: #66b7bd;
+    font-size: 50px;
+    margin-top: 20px; }
+  .about h3 {
+    margin-top: 30px; }
+
+@media (min-width: 1500px) {
+  .about .row p {
+    font-size: 25px; }
+  .about i {
+    margin-top: 60px;
+    font-size: 60px; }
+  .about h1, .about h3 {
+    font-size: 40px; } }
+@media (min-width: 1900px) {
+  .about .row p {
+    font-size: 30px; }
+  .about i {
+    margin-top: 60px;
+    font-size: 70px; }
+  .about h1, .about h3 {
+    font-size: 50px; }
+  .about h3 {
+    margin-top: 90px; } }
+@media (min-width: 2500px) {
+  .about .row p {
+    font-size: 40px; }
+  .about i {
+    margin-top: 60px;
+    font-size: 90px; }
+  .about h1, .about h3 {
+    font-size: 70px; }
+  .about h3 {
+    margin-top: 90px; } }
+@media (max-width: 450px) {
+  .about .row {
+    width: 100%; }
+    .about .row p {
+      padding: 0; } }
+
+/*# sourceMappingURL=about.css.map */

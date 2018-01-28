@@ -8375,6 +8375,10 @@ span {
     background-image: url("../img/hm-the-king.png"); }
   .work .paid-10 {
     background-image: url("../img/podsearch-2.png"); }
+  .work .paid-11 {
+    background-image: url("../img/waiter-1.png"); }
+  .work .paid-12 {
+    background-image: url("../img/waiter-2.png"); }
   .work .portfolio-1 {
     background-image: url("../img/jekyll.png"); }
   .work .portfolio-2 {
@@ -8395,6 +8399,8 @@ span {
     background-image: url("../img/britecore.png"); }
   .work .portfolio-10 {
     background-image: url("../img/ice-fox.png"); }
+  .work .portfolio-11 {
+    background-image: url("../img/open-charity.png"); }
 
 .lightbox .lb-outerContainer {
   width: 90% !important;

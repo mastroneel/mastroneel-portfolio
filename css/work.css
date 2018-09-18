@@ -81,6 +81,10 @@
     background-image: url("../img/waiter-1.png"); }
   .work .paid-12 {
     background-image: url("../img/waiter-2.png"); }
+  .work .paid-13 {
+    background-image: url("../img/lucfest-schedule.png"); }
+  .work .paid-14 {
+    background-image: url("../img/lucfest.png"); }
   .work .portfolio-1 {
     background-image: url("../img/jekyll.png"); }
   .work .portfolio-2 {
@@ -111,6 +115,8 @@
     background-image: url("../img/terminal-login.png"); }
   .work .portfolio-15 {
     background-image: url("../img/book-search.png"); }
+  .work .portfolio-16 {
+    background-image: url("../img/create-ape.png"); }
 
 .lightbox .lb-outerContainer {
   width: 90% !important;

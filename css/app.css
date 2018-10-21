@@ -8139,7 +8139,8 @@ button.close {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  width: 100%; }
+  width: 100%;
+  min-height: 610px; }
   .hero h1 {
     font-weight: bold;
     color: #fff;
@@ -8155,6 +8156,7 @@ button.close {
   .hero a, .hero a:visited {
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
+    text-decoration: none;
     display: block;
     margin: 0 auto;
     border: 4px solid rgba(255, 255, 255, 0.5);
@@ -8385,6 +8387,8 @@ span {
     background-image: url("../img/lucfest.png"); }
   .work .paid-15 {
     background-image: url("../img/betsentiment.png"); }
+  .work .paid-16 {
+    background-image: url("../img/demand-science.png"); }
   .work .portfolio-1 {
     background-image: url("../img/jekyll.png"); }
   .work .portfolio-2 {

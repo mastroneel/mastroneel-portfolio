@@ -1,6 +1,7 @@
 @import '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
 @import '../node_modules/font-awesome/scss/font-awesome';
-@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 // @font-face {
 //     font-family: Futura;
 //     src: url("../fonts/futura.ttf") format("opentype");
@@ -8,6 +9,7 @@
 @import '../node_modules/lightbox2/dist/css/lightbox.css';
 
 @import 'hero';
+@import 'sidebar';
 @import 'about';
 @import 'work';
 @import 'contact';
@@ -19,6 +21,17 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: #262626;
+}
+
+.body-container {
+  width: 100vw;
+  overflow: hidden;
+}
+
+.center {
   text-align: center;
 }

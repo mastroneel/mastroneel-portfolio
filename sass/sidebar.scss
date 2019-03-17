@@ -1,0 +1,149 @@
+.sidebar {
+  text-align: left;
+  width: 20vw;
+  position: fixed;
+  background-color: #fff;
+  z-index: 10000;
+  height: 100vh;
+  ul {
+    list-style-type: none;
+    li {
+      a, a:visited {
+        text-decoration: none;
+        color: #262626;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+body {
+  &.disabled {
+    overflow: hidden; // disable scrolling
+  }
+}
+
+// styling page wrap and .disabled class
+.page-wrap {
+  background-color: white;
+  height: 100%;
+  left: 0;
+  overflow: hidden; // remove in development
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+  z-index: 2;
+
+  &.disabled {
+    left: calc(100% - 80px);
+  }
+}
+
+// basic header styles
+header {
+  box-shadow: 0px 5px 5px #999999;
+  height: 100px;
+  position: relative;
+}
+
+
+// styling of hamburger menu
+.hamburger-menu {
+  display: inline-block;
+  height: 60px;
+  padding: 35px 25px;
+  transition: all 0.3s ease-in-out;
+  position: absolute;
+  left: 0;
+  &:hover {
+    cursor: pointer;
+  }
+
+  .menu-item {
+    background: #262626;
+    display: block;
+    height: 3px;
+    margin: 0 0 10px;
+    transition: all 0.3s ease-in-out;
+    width: 40px;
+  }
+
+  &.open {
+
+    .menu-item {
+      margin: 0 0 5px;
+
+      &:first-child {
+        transform: rotate(45deg);
+        transform-origin: 10px;
+      }
+      &:nth-child(2) {
+        opacity: 0;
+      }
+      &:nth-child(3) {
+        transform: rotate(-45deg);
+        transform-origin: 8px;
+      }
+    }
+  }
+}
+
+// nav styles
+.mobile-nav-wrap {
+  @media (min-width: 769px) {
+    /* display: none; */
+  }
+}
+
+// fixed mobile nav styling
+.mobile-nav-wrap {
+  background-color: #fff;
+  border-right: 2px solid #262626;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  // z-index: 1;
+  opacity: 0;
+  .fixed-mobile-nav {
+    list-style: none;
+    margin: 50px 0 0;
+    padding: 0;
+    li {
+      text-align: center;
+      // margin-left: 50px;
+      width: 50%;
+      margin: 0 auto;
+      a {
+        color: #262626;
+        display: block;
+        font-size: 24px;
+        padding: 25px 0;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+
+.opaque {
+  opacity: 1;
+}
+
+@media (min-width: 1101px) {
+  .mobile-nav-wrap, header {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1100px) {
+  .sidebar {
+    display: none;
+  }
+}

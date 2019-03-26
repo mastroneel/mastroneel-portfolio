@@ -9,20 +9,16 @@
   background-color: #f3f3f3;
   position: relative;
   .details {
+    overflow-x: scroll;
+    padding: 15px;
     z-index: 10;
-    padding-right: 30px;
     background-color: #f3f3f3;
-    // position: absolute;
-    // top: 0;
-    // right: 0;
+    position: absolute;
+    top: 0;
+    right: 0 !important;
     display: none;
     height: 100%;
-    width: 80vw;
     overflow-x: scroll;
-    padding: 40px;
-    position: fixed;
-    top: 0px;
-    right: 0px;
     .site-link {
       color: #fff;
       padding: 15px;
@@ -49,10 +45,10 @@
         // margin-top: 2px;
       }
     }
-    .row {
-      height: 100%;
-      overflow: scroll;
-    }
+    // .row {
+    //   height: 100%;
+    //   overflow: scroll;
+    // }
     .close-button {
       display: block;
       font-weight: 700;

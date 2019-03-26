@@ -25,34 +25,50 @@
   <div class="sidebar">
     <ul>
       <li>
-        <a href="#">
+        <a class="show-section show-about" href="#">
           About
-          (ADD TESTIMONIALS)
         </a>
       </li>
+      <li class="list-divider"></li>
       <li>
-        <a href="#">
-          All work
+        <a class="show-section show-all-work" href="#">
+          Development Work
         </a>
       </li>
-      <li>
-        <a href="#">
-          Designed by me
-        </a>
-      </li>
-      <li>
-        <a href="#">
+      <!-- <li class="list-divider"></li> -->
+      <!-- <li>
+        <a class="show-section show-development-work" href="#">
           Developed by me
         </a>
-      </li>
+      </li> -->
+      <li class="list-divider"></li>
       <li>
-        <a href="#">
-          Made with Vue.js
+        <a class="show-section show-design-work" href="#">
+          Design Work
         </a>
       </li>
+      <li class="list-divider"></li>
+      <!-- <li>
+        <a class="show-section show-vue-work" href="#">
+          Made with Vue.js
+        </a>
+      </li> -->
+      <!-- <li class="list-divider"></li>
       <li>
-        <a href="#">
+        <a class="show-section show-landing-pages" href="#">
          Landing pages
+        </a>
+      </li>
+      <li class="list-divider"></li> -->
+      <li>
+        <a class="show-section show-testimonials" href="#">
+          Testimonials
+        </a>
+      </li>
+      <li class="list-divider"></li>
+      <li>
+        <a class="show-section show-contact" href="#">
+          Contact
         </a>
       </li>
     </ul>
@@ -62,9 +78,53 @@
 
   <nav class="mobile-nav-wrap" role="navigation">
     <ul class="fixed-mobile-nav">
-      <li><a href="#">Nav Item 1</a></li>
-      <li><a href="#">Nav Item 2</a></li>
-      <li><a href="#">Nav Item 3</a></li>
+      <li>
+        <a class="show-section show-about" href="#">
+          About
+        </a>
+      </li>
+      <li class="list-divider"></li>
+      <li>
+        <a class="show-section show-all-work" href="#">
+          All Development Work
+        </a>
+      </li>
+      <li class="list-divider"></li>
+      <!-- <li>
+        <a class="show-section show-development-work" href="#">
+          Developed by me
+        </a>
+      </li>
+      <li class="list-divider"></li> -->
+      <li>
+        <a class="show-section show-design-work" href="#">
+          All Design Work
+        </a>
+      </li>
+      <!-- <li class="list-divider"></li>
+      <li>
+        <a class="show-section show-vue-work" href="#">
+          Made with Vue.js
+        </a>
+      </li>
+      <li class="list-divider"></li>
+      <li>
+        <a class="show-section show-landing-pages" href="#">
+         Landing pages
+        </a>
+      </li> -->
+      <li class="list-divider"></li>
+      <li>
+        <a class="show-section show-testimonials" href="#">
+          Testimonials
+        </a>
+      </li>
+      <li class="list-divider"></li>
+      <li>
+        <a class="show-section show-contact" href="#">
+          Contact
+        </a>
+      </li>
     </ul>
   </nav>
 
@@ -89,9 +149,185 @@
 
 
   <div class="main-content">
-    <div class="all-work">
+
+    <!-- start about -->
+    <div class="about work-section hide-section">
+      <div class="about-content-container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h3>
+            My Skills
+          </h3>
+          <div class="gray-divider"></div>
+          <p>For all phases of front end development, I've got you covered.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-md-4">
+          <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+          <h2>Ideas</h2>
+          <p>
+            I work with clients to turn concepts into beautiful
+            and functional designs. After all, that's where great
+            user experiences start.
+          </p>
+        </div>
+        <div class="col-xs-12 col-md-4">
+          <i class="fa fa-pencil" aria-hidden="true"></i>
+          <h2>UX/UI</h2>
+          <p>
+            I specialize in designing user interfaces based on
+            intuitive patterns. I aim for minimalistic design schemes
+            that don't make the user think too much.
+          </p>
+        </div>
+        <div class="col-xs-12 col-md-4">
+          <i class="fa fa-code" aria-hidden="true"></i>
+          <h2>Code</h2>
+          <p>
+            I am well-versed in HTML, CSS/SASS, and Javascript. I like to
+            write code from scratch, but I can also work with Javascript frameworks like Vue, or CSS frameworks like
+            Bootstrap. I like to keep my code as clean and concise as possible.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <h3>Technologies I'm familiar with:</h3>
+          <p>
+            HTML, CSS, SASS, Javascript, jQuery, Vue.js, Bootstrap, Zurb Foundation, Jekyll, Git, Node/npm, Webpack
+          </p>
+        </div>
+      </div>
+      </div>
+    </div>
+    <!-- end about -->
+
+    <!-- start testimonials -->
+    <div class="testimonials work-section hide-section center">
+      <div class="testimonials-content-container">
+      <div class="row">
+        <div class="col-xs-12">
+
+          <div class="five-stars">
+            <i class="fa fa-star fade1" aria-hidden="true"></i>
+            <i class="fa fa-star fade2" aria-hidden="true"></i>
+            <i class="fa fa-star fade3" aria-hidden="true"></i>
+            <i class="fa fa-star fade4" aria-hidden="true"></i>
+            <i class="fa fa-star fade5" aria-hidden="true"></i>
+            <br>
+          </div>
+
+          <p class="italic">
+            <span class="red-quote">“</span>
+            Lauren was fantastic to work with in every respect. I could not recommend her more highly.
+            <span class="red-quote">”</span>
+          </p>
+          <h3>
+            - Shaun L.
+          </h3>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+
+          <div class="five-stars">
+            <i class="fa fa-star fade1" aria-hidden="true"></i>
+            <i class="fa fa-star fade2" aria-hidden="true"></i>
+            <i class="fa fa-star fade3" aria-hidden="true"></i>
+            <i class="fa fa-star fade4" aria-hidden="true"></i>
+            <i class="fa fa-star fade5" aria-hidden="true"></i>
+            <br>
+          </div>
+
+          <p class="italic">
+            <span class="red-quote">“</span>
+            Lauren was a pleasure to work with! We worked on some simple but unique ideas for how to build my portfolio page, and Lauren was always available to talk through changes or new ideas for the project. - She exhibited great communication skills and responsiveness, which are such important skills for anyone working remotely. - I would absolutely work with Lauren again in the future!
+            <span class="red-quote">”</span>
+          </p>
+          <h3>
+            - Patrick M.
+          </h3>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="five-stars">
+            <i class="fa fa-star fade1" aria-hidden="true"></i>
+            <i class="fa fa-star fade2" aria-hidden="true"></i>
+            <i class="fa fa-star fade3" aria-hidden="true"></i>
+            <i class="fa fa-star fade4" aria-hidden="true"></i>
+            <i class="fa fa-star fade5" aria-hidden="true"></i>
+            <br>
+          </div>
+
+          <p class="italic">
+            <span class="red-quote">“</span>
+            Very good freelancer to work with. Patient and excellent quality. Thanks again for your hard work.
+            <span class="red-quote">”</span>
+          </p>
+          <h3>
+            - Jose A.
+          </h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+
+          <div class="five-stars">
+            <i class="fa fa-star fade1" aria-hidden="true"></i>
+            <i class="fa fa-star fade2" aria-hidden="true"></i>
+            <i class="fa fa-star fade3" aria-hidden="true"></i>
+            <i class="fa fa-star fade4" aria-hidden="true"></i>
+            <i class="fa fa-star fade5" aria-hidden="true"></i>
+            <br>
+          </div>
+
+          <p class="italic">
+            <span class="red-quote">“</span>
+            Wow, Lauren was amazing. Great communication, very available, fluent English, and performed the job beyond my expectations. Will use her again for sure.
+            <span class="red-quote">”</span>
+          </p>
+          <h3>
+            - Derek G.
+          </h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+
+          <div class="five-stars">
+            <i class="fa fa-star fade1" aria-hidden="true"></i>
+            <i class="fa fa-star fade2" aria-hidden="true"></i>
+            <i class="fa fa-star fade3" aria-hidden="true"></i>
+            <i class="fa fa-star fade4" aria-hidden="true"></i>
+            <i class="fa fa-star fade5" aria-hidden="true"></i>
+            <br>
+          </div>
+
+          <p class="italic">
+            <span class="red-quote">“</span>
+            Lauren does excellent work and is a superb communicator. I'd look forward to working with her again.
+            <span class="red-quote">”</span>
+          </p>
+          <h3>
+            - Aparna K.
+          </h3>
+        </div>
+      </div>
+      </div>
+    </div>
+    <!-- end testimonials -->
 
 
+
+
+
+
+    <!-- start design work -->
+    <div class="design-work work-section hide-section">
       <!-- start row 1 -->
       <div class="row">
         <div class="col-xs-12 col-sm-7">
@@ -104,7 +340,412 @@
                 </p>
                 <div class="white-divider"></div>
                 <p class="description">
-                  Website redesign, development
+                  Partial website redesign, development
+                </p>
+              </div>
+            </a>
+            <a class="arrow-box open-adgile-details" href="#">
+              <i class="fa fa-long-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-5">
+          <div class="work work-small portfolio-9" data-aos="fade-up">
+            <a href="#" class="open-britecore-details">
+              <img src="img/britecore-logo.png" />
+              <div class="red-overlay">
+                <p class="title">
+                  Britecore
+                </p>
+                <div class="white-divider"></div>
+                <p class="description">
+                  UX design and development
+                </p>
+              </div>
+            </a>
+            <a class="arrow-box open-britecore-details" href="#">
+              <i class="fa fa-long-arrow-right"></i>
+            </a>
+          </div>
+          <div class="work work-small paid-17" data-aos="fade-up">
+            <a href="#" class="open-bitfinding-details">
+              <img src="img/bitfinding-logo.png" />
+              <div class="red-overlay">
+                <p class="title">
+                  Bitfinding
+                </p>
+                <div class="white-divider"></div>
+                <p class="description">
+                  Index fund chart design and development
+                </p>
+              </div>
+            </a>
+            <a class="arrow-box open-bitfinding-details" href="#">
+              <i class="fa fa-long-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- end row 1 -->
+
+      <!-- start row 2 -->
+      <div class="row">
+        <div class="col-xs-12 col-sm-5">
+          <div class="work work-small paid-14" data-aos="fade-up">
+            <a href="#" class="open-lucfest-details">
+              <img src="img/lucfest-logo.png" />
+              <div class="red-overlay">
+                <p class="title">
+                  Lucfest
+                </p>
+                <div class="white-divider"></div>
+                <p class="description">
+                  Wordpress theme design and development
+                </p>
+              </div>
+            </a>
+            <a class="arrow-box open-lucfest-details" href="#">
+              <i class="fa fa-long-arrow-right"></i>
+            </a>
+          </div>
+          <div class="work work-small paid-11" data-aos="fade-up">
+            <a href="#" class="open-waitr-details">
+              <img src="img/waitr-logo.png" />
+              <div class="red-overlay">
+                <p class="title">
+                  Waitr
+                </p>
+                <div class="white-divider"></div>
+                <p class="description">
+                  UX design and Vue.js development
+                </p>
+              </div>
+            </a>
+            <a class="arrow-box open-waitr-details" href="#">
+              <i class="fa fa-long-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-7">
+          <div class="work work-big paid-15" data-aos="fade-up">
+            <a href="#" class="open-betsentiment-details">
+              <img src="img/betsentiment-logo.png"/>
+              <div class="red-overlay">
+                <p class="title">
+                  BetSentiment
+                </p>
+                <div class="white-divider"></div>
+                <p class="description">
+                  UX design, Development
+                </p>
+              </div>
+            </a>
+            <a class="arrow-box open-betsentiment-details" href="#">
+              <i class="fa fa-long-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- end row 2 -->
+
+      <!-- start row 5 -->
+      <div class="row">
+        <div class="col-xs-12 col-sm-7">
+          <div class="work work-big portfolio-13" data-aos="fade-up">
+            <a href="#" class="open-britecore2-details">
+              <img src="img/britecore-logo.png"/>
+              <div class="red-overlay">
+                <p class="title">
+                  Britecore
+                </p>
+                <div class="white-divider"></div>
+                <p class="description">
+                  UX prototype development
+                </p>
+              </div>
+            </a>
+            <a class="arrow-box open-britecore2-details" href="#">
+              <i class="fa fa-long-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-5">
+          <div class="work work-small portfolio-14" data-aos="fade-up">
+            <a href="#" class="open-certifica-details">
+              <img src="img/certifica-logo.png" />
+              <div class="red-overlay">
+                <p class="title">
+                  Certifica
+                </p>
+                <div class="white-divider"></div>
+                <p class="description">
+                  UX prototype design and development
+                </p>
+              </div>
+            </a>
+            <a class="arrow-box open-certifica-details" href="#">
+              <i class="fa fa-long-arrow-right"></i>
+            </a>
+          </div>
+          <div class="work work-small paid-9" data-aos="fade-up">
+            <a href="#" class="open-hm-details">
+              <img src="img/hm-logo.png"/>
+              <div class="red-overlay">
+                <p class="title">
+                  HM the King
+                </p>
+                <div class="white-divider"></div>
+                <p class="description">
+                  Landing page design and development, store locator development
+                </p>
+              </div>
+            </a>
+            <a class="arrow-box open-hm-details" href="#">
+              <i class="fa fa-long-arrow-right"></i>
+            </a>
+          </div>
+
+        </div>
+      </div>
+      <!-- end row 5 -->
+
+      <!-- start row 6 -->
+      <div class="row">
+        <div class="col-xs-12 col-sm-5">
+          <div class="work work-small paid-4" data-aos="fade-up">
+            <a href="#" class="open-fundio-details">
+              <img src="img/fundio-logo.png" />
+              <div class="red-overlay">
+                <p class="title">
+                  Fundio
+                </p>
+                <div class="white-divider"></div>
+                <p class="description">
+                  Web design and development
+                </p>
+              </div>
+            </a>
+            <a class="arrow-box open-fundio-details" href="#">
+              <i class="fa fa-long-arrow-right"></i>
+            </a>
+          </div>
+          <div class="work work-small paid-8" data-aos="fade-up">
+            <a href="#" class="open-podsearch1-details">
+              <img src="img/podsearch-logo.png"/>
+              <div class="red-overlay">
+                <p class="title">
+                  PodSearch
+                </p>
+                <div class="white-divider"></div>
+                <p class="description">
+                  Landing page design and development
+                </p>
+              </div>
+            </a>
+            <a class="arrow-box open-podsearch1-details" href="#">
+              <i class="fa fa-long-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-7">
+          <div class="work work-big paid-2" data-aos="fade-up">
+            <a href="#" class="open-olmajor-details">
+              <img src="img/olmajor-logo.png" />
+              <div class="red-overlay">
+                <p class="title">
+                  Ol' Major
+                </p>
+                <div class="white-divider"></div>
+                <p class="description">
+                  Landing page design and development, store locator development
+                </p>
+              </div>
+            </a>
+            <a class="arrow-box open-olmajor-details" href="#">
+              <i class="fa fa-long-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- end row 6 -->
+
+      <!-- start row 8 -->
+      <div class="row">
+        <div class="col-xs-12 col-sm-5">
+          <div class="work work-small paid-22" data-aos="fade-up">
+            <a href="#" class="open-garage-details">
+              <img src="img/garage-logo.png" />
+              <div class="red-overlay">
+                <p class="title">
+                  Generali
+                </p>
+                <div class="white-divider"></div>
+                <p class="description">
+                  Web design and development promoting The Garage coworking space
+                </p>
+              </div>
+            </a>
+            <a class="arrow-box open-garage-details" href="#">
+              <i class="fa fa-long-arrow-right"></i>
+            </a>
+          </div>
+          <!-- <div class="work work-small paid-1" data-aos="fade-up">
+            <a href="#" class="open-hana-details">
+              <img src="img/hana-logo.png" />
+              <div class="red-overlay">
+                <p class="title">
+                  Hana Gin
+                </p>
+                <div class="white-divider"></div>
+                <p class="description">
+                  Landing page design development, store locator development
+                </p>
+              </div>
+            </a>
+            <a class="arrow-box open-hana-details" href="#">
+              <i class="fa fa-long-arrow-right"></i>
+            </a>
+          </div>
+          <div class="work work-small paid-9" data-aos="fade-up">
+            <a href="#" class="open-hm-details">
+              <img src="img/hm-logo.png"/>
+              <div class="red-overlay">
+                <p class="title">
+                  HM the King
+                </p>
+                <div class="white-divider"></div>
+                <p class="description">
+                  Landing page design and development, store locator development
+                </p>
+              </div>
+            </a>
+            <a class="arrow-box open-hm-details" href="#">
+              <i class="fa fa-long-arrow-right"></i>
+            </a>
+          </div> -->
+        </div>
+        <div class="col-xs-12 col-sm-7">
+          <div class="work work-big paid-10" data-aos="fade-up">
+            <a href="#" class="open-podsearch2-details">
+              <img src="img/podsearch-logo.png" />
+              <div class="red-overlay">
+                <p class="title">
+                  PodSearch
+                </p>
+                <div class="white-divider"></div>
+                <p class="description">
+                  Landing page design and development
+                </p>
+              </div>
+            </a>
+            <a class="arrow-box open-podsearch2-details" href="#">
+              <i class="fa fa-long-arrow-right"></i>
+            </a>
+          </div>
+          <!-- <div class="work work-big paid-10" data-aos="fade-up">
+            <a href="#" class="open-podsearch2-details">
+              <img src="img/podsearch-logo.png" />
+              <div class="red-overlay">
+                <p class="title">
+                  PodSearch
+                </p>
+                <div class="white-divider"></div>
+                <p class="description">
+                  Landing page design and development
+                </p>
+              </div>
+            </a>
+            <a class="arrow-box open-podsearch2-details" href="#">
+              <i class="fa fa-long-arrow-right"></i>
+            </a>
+          </div> -->
+        </div>
+      </div>
+      <!-- end row 8 -->
+    </div>
+    <!-- end design work -->
+
+
+
+
+
+
+
+    <!-- <div class="vue-work work-section hide-section">
+      Vue.js
+    </div>
+
+    <div class="landing-pages work-section hide-section">
+      Landing pages
+    </div> -->
+
+    <!-- start contact -->
+    <div class="contact work-section hide-section">
+      <div class="contact-content-container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h1>Want to work together?</h1>
+            <p>Fill out the form below or contact me at <span class="bold">laurenmastroni@gmail.com</span></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <form action="https://formspree.io/laurenmastroni@gmail.com"
+                  method="POST">
+                <p>Your Name</p>
+                <input type="text" name="name">
+                <p>What do you need?</p>
+                <select class="small-input" name="projecttype">
+                  <option value="Development">Development</option>
+                  <option value="Design">Design</option>
+                  <option value="Both">Both</option>
+                </select>
+                <p>Email Address</p>
+                <input type="email" name="_replyto">
+                <p>Budget</p>
+                <input type="text" name="budget">
+                <p>Message</p>
+                <input type="text" name="message">
+                <button type="submit" value=""><i class="fa fa-long-arrow-right"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end contact section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- start all work section -->
+    <div class="all-work work-section">
+      <!-- start row 1 -->
+      <div class="row">
+        <div class="col-xs-12 col-sm-7">
+          <div class="work work-big paid-19" data-aos="fade-up">
+            <a href="#" class="open-adgile-details">
+              <img src="img/adgile-logo.png"/>
+              <div class="red-overlay">
+                <p class="title">
+                  Adgile
+                </p>
+                <div class="white-divider"></div>
+                <p class="description">
+                  Partial website redesign, development
                 </p>
               </div>
             </a>
@@ -516,20 +1157,20 @@
       <!-- start row 8 -->
       <div class="row">
         <div class="col-xs-12 col-sm-5">
-          <div class="work work-small paid-10" data-aos="fade-up">
-            <a href="#" class="open-podsearch2-details">
-              <img src="img/podsearch-logo.png" />
+          <div class="work work-small paid-22" data-aos="fade-up">
+            <a href="#" class="open-garage-details">
+              <img src="img/garage-logo.png" />
               <div class="red-overlay">
                 <p class="title">
-                  PodSearch
+                  Generali
                 </p>
                 <div class="white-divider"></div>
                 <p class="description">
-                  Landing page design and development
+                  Web design and development promoting The Garage coworking space
                 </p>
               </div>
             </a>
-            <a class="arrow-box open-podsearch2-details" href="#">
+            <a class="arrow-box open-garage-details" href="#">
               <i class="fa fa-long-arrow-right"></i>
             </a>
           </div>
@@ -569,6 +1210,23 @@
           </div> -->
         </div>
         <div class="col-xs-12 col-sm-7">
+          <div class="work work-big paid-10" data-aos="fade-up">
+            <a href="#" class="open-podsearch2-details">
+              <img src="img/podsearch-logo.png" />
+              <div class="red-overlay">
+                <p class="title">
+                  PodSearch
+                </p>
+                <div class="white-divider"></div>
+                <p class="description">
+                  Landing page design and development
+                </p>
+              </div>
+            </a>
+            <a class="arrow-box open-podsearch2-details" href="#">
+              <i class="fa fa-long-arrow-right"></i>
+            </a>
+          </div>
           <!-- <div class="work work-big paid-10" data-aos="fade-up">
             <a href="#" class="open-podsearch2-details">
               <img src="img/podsearch-logo.png" />
@@ -589,11 +1247,12 @@
         </div>
       </div>
       <!-- end row 8 -->
-
-
       </div>
       <!-- end all work -->
     <!-- </div> -->
+
+
+
 
 
 
@@ -609,6 +1268,9 @@
           </h3>
           <div class="gray-divider"></div>
           <p>Technologies used: ASP.net, HTML, CSS, Javascript</p>
+          <a class="site-link" target="_blank" href="https://adgile.media/Services/Services.aspx">
+            Visit Site<i class="fa fa-long-arrow-right"></i>
+          </a>
           <img src="img/adgile-1.png" />
           <img src="img/adgile-2.png" />
           <img src="img/adgile-3.png" />
@@ -632,6 +1294,9 @@
           </h3>
           <div class="gray-divider"></div>
           <p>Technologies used: Wordpress, HTML, CSS, Javascript</p>
+          <a class="site-link" target="_blank" href="https://pureb2b.com/">
+            Visit Site<i class="fa fa-long-arrow-right"></i>
+          </a>
           <img src="img/pureb2b-1.png" />
           <img src="img/pureb2b-2.png" />
           <img src="img/pureb2b-3.png" />
@@ -654,6 +1319,9 @@
           </h3>
           <div class="gray-divider"></div>
           <p>Technologies used: Chart.js, Adobe Photoshop, HTML, Sass, Javascript</p>
+          <a class="site-link" target="_blank" href="https://mastroneel.github.io/bitfinding-charts/">
+            Visit Site<i class="fa fa-long-arrow-right"></i>
+          </a>
           <img src="img/bitfinding-1.png" />
           <img src="img/bitfinding-2.png" />
           <img src="img/bitfinding-3.png" />
@@ -674,6 +1342,9 @@
           </h3>
           <div class="gray-divider"></div>
           <p>Technologies used: Vue.js, CSS, Javascript, Adobe Photoshop</p>
+          <a class="site-link" target="_blank" href="https://betsentiment.com">
+            Visit Site<i class="fa fa-long-arrow-right"></i>
+          </a>
           <img src="img/betsentiment-1.png" />
           <img src="img/betsentiment-2.png" />
           <img src="img/betsentiment-3.png" />
@@ -694,6 +1365,9 @@
           </h3>
           <div class="gray-divider"></div>
           <p>Technologies used: Wordpress, HTML, CSS, Javascript</p>
+          <a class="site-link" target="_blank" href="http://stage.demandscience.com/">
+            Visit Site<i class="fa fa-long-arrow-right"></i>
+          </a>
           <img src="img/demandscience-1.png" />
           <img src="img/demandscience-2.png" />
           <img src="img/demandscience-3.png" />
@@ -715,6 +1389,9 @@
           </h3>
           <div class="gray-divider"></div>
           <p>Technologies used: HTML, CSS, Javascript, Adobe Photoshop</p>
+          <a class="site-link" target="_blank" href="https://mastroneel.github.io/BriteCore-demo/">
+            Visit Site<i class="fa fa-long-arrow-right"></i>
+          </a>
           <img src="img/britecore.png" />
         </div>
       </div>
@@ -733,6 +1410,9 @@
           </h3>
           <div class="gray-divider"></div>
           <p>Technologies used: Jekyll, Liquid, HTML, Sass, jQuery</p>
+          <a class="site-link" target="_blank" href="https://modelmydiet.github.io/">
+            Visit Site<i class="fa fa-long-arrow-right"></i>
+          </a>
           <img src="img/model-1.png" />
           <img src="img/model-2.png" />
           <img src="img/model-3.png" />
@@ -755,6 +1435,9 @@
           </h3>
           <div class="gray-divider"></div>
           <p>Technologies used: HTML, Sass, jQuery</p>
+          <a class="site-link" target="_blank" href="http://patrickmccrory.com/">
+            Visit Site<i class="fa fa-long-arrow-right"></i>
+          </a>
           <img src="img/patrick-1.png" />
           <img src="img/patrick-2.png" />
           <img src="img/patrick-3.png" />
@@ -775,6 +1458,9 @@
           </h3>
           <div class="gray-divider"></div>
           <p>Technologies used: Wordpress, PHP, HTML, CSS, Javascript, Adobe Photoshop</p>
+          <a class="site-link" target="_blank" href="https://lucfest.com/c/">
+            Visit Site<i class="fa fa-long-arrow-right"></i>
+          </a>
           <img src="img/lucfest-1.png" />
           <img src="img/lucfest-2.png" />
           <img src="img/lucfest-3.png" />
@@ -796,6 +1482,9 @@
           </h3>
           <div class="gray-divider"></div>
           <p>Technologies used: HTML, Sass</p>
+          <a class="site-link" target="_blank" href="https://mastroneel.github.io/open-charity/">
+            Visit Site<i class="fa fa-long-arrow-right"></i>
+          </a>
           <img src="img/open-charity-full.png" />
         </div>
       </div>
@@ -814,13 +1503,16 @@
           </h3>
           <div class="gray-divider"></div>
           <p>Technologies used: HTML, Sass</p>
+          <a class="site-link" target="_blank" href="https://mastroneel.github.io/hint-landing-page/">
+            Visit Site<i class="fa fa-long-arrow-right"></i>
+          </a>
           <img src="img/hint-full.png" />
         </div>
       </div>
     </div>
     <!-- end hint -->
 
-    <!-- start hint -->
+    <!-- start waitr -->
     <div class="details waitr-details">
       <div class="row">
         <div class="col-xs-12 center">
@@ -832,12 +1524,13 @@
           </h3>
           <div class="gray-divider"></div>
           <p>Technologies used: Vue.js, HTML, CSS, Javascript, Adobe Photoshop</p>
+          <p>(no site available)</p>
           <img src="img/waiter-2.png" />
           <img src="img/waiter-1.png" />
         </div>
       </div>
     </div>
-    <!-- end hint -->
+    <!-- end waitr -->
 
     <!-- start britecore2 -->
     <div class="details britecore2-details">
@@ -851,6 +1544,9 @@
           </h3>
           <div class="gray-divider"></div>
           <p>Technologies used: Vue.js, HTML, CSS, Javascript</p>
+          <a class="site-link" target="_blank" href="https://mastroneel.github.io/britecore-demo-components/">
+            Visit Site<i class="fa fa-long-arrow-right"></i>
+          </a>
           <img src="img/britecore-components.png" />
         </div>
       </div>
@@ -869,6 +1565,9 @@
           </h3>
           <div class="gray-divider"></div>
           <p>Technologies used: HTML, Sass, Javascript</p>
+          <a class="site-link" target="_blank" href="https://mastroneel.github.io/create-ape-dist/">
+            Visit Site<i class="fa fa-long-arrow-right"></i>
+          </a>
           <img src="img/create-ape.png" />
         </div>
       </div>
@@ -887,6 +1586,9 @@
           </h3>
           <div class="gray-divider"></div>
           <p>Technologies used: HTML, Sass, Javascript</p>
+          <a class="site-link" target="_blank" href="https://mastroneel.github.io/certifica-test/">
+            Visit Site<i class="fa fa-long-arrow-right"></i>
+          </a>
           <img src="img/terminal-login.png" />
         </div>
       </div>
@@ -905,6 +1607,9 @@
           </h3>
           <div class="gray-divider"></div>
           <p>Technologies used: Google Maps API, HTML, Sass, Javascript</p>
+          <a class="site-link" target="_blank" href="http://hana-gin.com/">
+            Visit Site<i class="fa fa-long-arrow-right"></i>
+          </a>
           <img src="img/hana-full.png" />
         </div>
       </div>
@@ -923,6 +1628,9 @@
           </h3>
           <div class="gray-divider"></div>
           <p>Technologies used: Google Maps API, HTML, Sass, Javascript</p>
+          <a class="site-link" target="_blank" href="https://mastroneel.github.io/hm-the-king/">
+            Visit Site<i class="fa fa-long-arrow-right"></i>
+          </a>
           <img src="img/hm-the-king-full.png" />
         </div>
       </div>
@@ -941,6 +1649,9 @@
           </h3>
           <div class="gray-divider"></div>
           <p>Technologies used: Google Maps API, HTML, Sass, Javascript</p>
+          <a class="site-link" target="_blank" href="https://mastroneel.github.io/ol-major/">
+            Visit Site<i class="fa fa-long-arrow-right"></i>
+          </a>
           <img src="img/ol-major-full.png" />
         </div>
       </div>
@@ -959,6 +1670,9 @@
           </h3>
           <div class="gray-divider"></div>
           <p>Technologies used: HTML, Sass, Javascript</p>
+          <a class="site-link" target="_blank" href="https://mastroneel.github.io/fortune-technologies/">
+            Visit Site<i class="fa fa-long-arrow-right"></i>
+          </a>
           <img src="img/fortune-full.png" />
         </div>
       </div>
@@ -977,6 +1691,9 @@
           </h3>
           <div class="gray-divider"></div>
           <p>Technologies used: HTML, Sass, Javascript</p>
+          <a class="site-link" target="_blank" href="https://mastroneel.github.io/podsearchad-landing-page/">
+            Visit Site<i class="fa fa-long-arrow-right"></i>
+          </a>
           <img src="img/podsearch-full.png" />
         </div>
       </div>
@@ -995,6 +1712,9 @@
           </h3>
           <div class="gray-divider"></div>
           <p>Technologies used: HTML, Sass, Javascript, Adobe Photoshop</p>
+          <a class="site-link" target="_blank" href="https://mastroneel.github.io/fundio/">
+            Visit Site<i class="fa fa-long-arrow-right"></i>
+          </a>
           <img src="img/fundio-full.png" />
         </div>
       </div>
@@ -1013,11 +1733,34 @@
           </h3>
           <div class="gray-divider"></div>
           <p>Technologies used: HTML, Sass, Javascript</p>
+          <a class="site-link" target="_blank" href="https://mastroneel.github.io/podsearch-2/">
+            Visit Site<i class="fa fa-long-arrow-right"></i>
+          </a>
           <img src="img/podsearch-2-full.png" />
         </div>
       </div>
     </div>
     <!-- end podsearch2 -->
+
+
+        <!-- start garage -->
+        <div class="details garage-details">
+          <div class="row">
+            <div class="col-xs-12 center">
+              <a href="#" class="close-button project-close-button-row-7">
+                <i class="fas fa-times"></i>
+              </a>
+              <h3>
+                Web design and development for Generali
+              </h3>
+              <div class="gray-divider"></div>
+              <p>Technologies used: Wordpress, HTML, Sass, Javascript, Adobe Photoshop</p>
+              (no site available)
+              <img src="img/garage-1.png" />
+            </div>
+          </div>
+        </div>
+        <!-- end garage -->
 
   </div>
   <!-- end main content -->
@@ -1025,102 +1768,6 @@
 
 
 
-
-    <!-- about -->
-    <div class="about">
-      <div class="row">
-        <div class="col-xs-12">
-          <h1>My Skills</h1>
-          <p>For all phases of front end development, I've got you covered.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12 col-sm-4">
-          <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
-          <h2>Ideas</h2>
-          <p>
-            I work with clients to turn concepts into beautiful
-            and functional designs. After all, that's where great
-            user experiences start.
-          </p>
-        </div>
-        <div class="col-xs-12 col-sm-4">
-          <i class="fa fa-pencil" aria-hidden="true"></i>
-          <h2>UX/UI</h2>
-          <p>
-            I specialize in designing user interfaces based on
-            intuitive patterns. I aim for minimalistic design schemes
-            that don't make the user think too much.
-          </p>
-        </div>
-        <div class="col-xs-12 col-sm-4">
-          <i class="fa fa-code" aria-hidden="true"></i>
-          <h2>Code</h2>
-          <p>
-            I am well-versed in HTML, CSS/SASS, and Javascript. I like to
-            write code from scratch, but I can also work with Javascript frameworks like Vue, or CSS frameworks like
-            Bootstrap. I like to keep my code as clean and concise as possible.
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12">
-          <h3>Technologies I'm familiar with:</h3>
-          <p>
-            HTML, CSS, SASS, Javascript, jQuery, Vue, Bootstrap, Zurb Foundation, Jekyll, Git, Node/npm, Webpack, and a little React/Redux
-          </p>
-        </div>
-      </div>
-    </div>
-    <!-- end about -->
-
-
-
-
-
-
-
-    <!-- contact -->
-    <div class="contact">
-      <div class="row">
-        <div class="col-xs-12">
-          <h1>Want to work together?</h1>
-          <p>Fill out the form below or contact me at laurenmastroni@gmail.com</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12">
-          <form action="https://formspree.io/laurenmastroni@gmail.com"
-                method="POST">
-              <p>Your Name</p>
-              <input type="text" name="name">
-              <p>What do you need?</p>
-              <select class="small-input" name="projecttype">
-                <option value="Development">Development</option>
-                <option value="Design">Design</option>
-                <option value="Both">Both</option>
-              </select>
-              <p>Email Address</p>
-              <input type="email" name="_replyto">
-              <p>Budget</p>
-              <input type="text" name="budget">
-              <p>Message</p>
-              <input type="text" name="message">
-              <button type="submit" value="Submit">Submit</button>
-          </form>
-        </div>
-      </div>
-    </div>
-    <!-- end contact section -->
-
-    <!-- footer -->
-    <div class="footer">
-      <div class="row">
-        <div class="col-xs-12">
-          <h6>© 2019</h6>
-        </div>
-      </div>
-    </div>
 
 
 </div>
@@ -1140,53 +1787,64 @@
       $('body').toggleClass('disabled');
     });
 
+    $('.fixed-mobile-nav a').click(function(e){
+      e.preventDefault();
+      $('.js-toggle-menu').toggleClass('open');
+      $('.mobile-nav-wrap ').toggleClass('opaque');
+      $('.page-wrap').toggleClass('disabled');
+      $('body').toggleClass('disabled');
+    });
+
+
+
+
 
     // project open and close buttons
     $('.project-close-button-row-1').click(function(e){
       e.preventDefault();
-      $(window).scrollTop(0);
+      // $(window).scrollTop(0);
       $('.details').fadeOut();
       $('header').fadeIn();
     });
 
     $('.project-close-button-row-2').click(function(e){
       e.preventDefault();
-      $(window).scrollTop(600);
+      // $(window).scrollTop(600);
       $('.details').fadeOut();
       $('header').fadeIn();
     });
 
     $('.project-close-button-row-3').click(function(e){
       e.preventDefault();
-      $(window).scrollTop(1200);
+      // $(window).scrollTop(1200);
       $('.details').fadeOut();
       $('header').fadeIn();
     });
 
     $('.project-close-button-row-4').click(function(e){
       e.preventDefault();
-      $(window).scrollTop(1800);
+      // $(window).scrollTop(1800);
       $('.details').fadeOut();
       $('header').fadeIn();
     });
 
     $('.project-close-button-row-5').click(function(e){
       e.preventDefault();
-      $(window).scrollTop(2400);
+      // $(window).scrollTop(2400);
       $('.details').fadeOut();
       $('header').fadeIn();
     });
 
     $('.project-close-button-row-6').click(function(e){
       e.preventDefault();
-      $(window).scrollTop(3000);
+      // $(window).scrollTop(3000);
       $('.details').fadeOut();
       $('header').fadeIn();
     });
 
     $('.project-close-button-row-7').click(function(e){
       e.preventDefault();
-      $(window).scrollTop(3600);
+      // $(window).scrollTop(3600);
       $('.details').fadeOut();
       $('header').fadeIn();
     });
@@ -1194,157 +1852,275 @@
 
       $('.open-adgile-details').click(function(e){
         e.preventDefault();
-        $(window).scrollTop(0);
+        // $(window).scrollTop(0);
         $('.adgile-details').fadeIn();
         $('header').fadeOut();
       });
 
       $('.open-pureb2b-details').click(function(e){
         e.preventDefault();
-        $(window).scrollTop(0);
+        // $(window).scrollTop(0);
         $('.pureb2b-details').fadeIn();
         $('header').fadeOut();
       });
 
       $('.open-bitfinding-details').click(function(e){
         e.preventDefault();
-        $(window).scrollTop(0);
+        // $(window).scrollTop(0);
         $('.bitfinding-details').fadeIn();
         $('header').fadeOut();
       });
 
       $('.open-betsentiment-details').click(function(e){
         e.preventDefault();
-        $(window).scrollTop(0);
+        // $(window).scrollTop(0);
         $('.betsentiment-details').fadeIn();
         $('header').fadeOut();
       });
 
       $('.open-demandscience-details').click(function(e){
         e.preventDefault();
-        $(window).scrollTop(0);
+        // $(window).scrollTop(0);
         $('.demandscience-details').fadeIn();
         $('header').fadeOut();
       });
 
       $('.open-britecore-details').click(function(e){
         e.preventDefault();
-        $(window).scrollTop(0);
+        // $(window).scrollTop(0);
         $('.britecore-details').fadeIn();
         $('header').fadeOut();
       });
 
       $('.open-model-details').click(function(e){
         e.preventDefault();
-        $(window).scrollTop(0);
+        // $(window).scrollTop(0);
         $('.model-details').fadeIn();
         $('header').fadeOut();
       });
 
       $('.open-patrick-details').click(function(e){
         e.preventDefault();
-        $(window).scrollTop(0);
+        // $(window).scrollTop(0);
         $('.patrick-details').fadeIn();
         $('header').fadeOut();
       });
 
       $('.open-lucfest-details').click(function(e){
         e.preventDefault();
-        $(window).scrollTop(0);
+        // $(window).scrollTop(0);
         $('.lucfest-details').fadeIn();
         $('header').fadeOut();
       });
 
       $('.open-hint-details').click(function(e){
         e.preventDefault();
-        $(window).scrollTop(0);
+        // $(window).scrollTop(0);
         $('.hint-details').fadeIn();
         $('header').fadeOut();
       });
 
       $('.open-opencharity-details').click(function(e){
         e.preventDefault();
-        $(window).scrollTop(0);
+        // $(window).scrollTop(0);
         $('.opencharity-details').fadeIn();
         $('header').fadeOut();
       });
 
       $('.open-waitr-details').click(function(e){
         e.preventDefault();
-        $(window).scrollTop(0);
+        // $(window).scrollTop(0);
         $('.waitr-details').fadeIn();
         $('header').fadeOut();
       });
 
       $('.open-britecore2-details').click(function(e){
         e.preventDefault();
-        $(window).scrollTop(0);
+        // $(window).scrollTop(0);
         $('.britecore2-details').fadeIn();
         $('header').fadeOut();
       });
 
       $('.open-createape-details').click(function(e){
         e.preventDefault();
-        $(window).scrollTop(0);
+        // $(window).scrollTop(0);
         $('.createape-details').fadeIn();
         $('header').fadeOut();
       });
 
       $('.open-certifica-details').click(function(e){
         e.preventDefault();
-        $(window).scrollTop(0);
+        // $(window).scrollTop(0);
         $('.certifica-details').fadeIn();
         $('header').fadeOut();
       });
 
       $('.open-hana-details').click(function(e){
         e.preventDefault();
-        $(window).scrollTop(0);
+        // $(window).scrollTop(0);
         $('.hana-details').fadeIn();
         $('header').fadeOut();
       });
 
       $('.open-hm-details').click(function(e){
         e.preventDefault();
-        $(window).scrollTop(0);
+        // $(window).scrollTop(0);
         $('.hm-details').fadeIn();
         $('header').fadeOut();
       });
 
       $('.open-olmajor-details').click(function(e){
         e.preventDefault();
-        $(window).scrollTop(0);
+        // $(window).scrollTop(0);
         $('.olmajor-details').fadeIn();
         $('header').fadeOut();
       });
 
       $('.open-podsearch1-details').click(function(e){
         e.preventDefault();
-        $(window).scrollTop(0);
+        // $(window).scrollTop(0);
         $('.podsearch1-details').fadeIn();
         $('header').fadeOut();
       });
 
       $('.open-fortune-details').click(function(e){
         e.preventDefault();
-        $(window).scrollTop(0);
+        // $(window).scrollTop(0);
         $('.fortune-details').fadeIn();
         $('header').fadeOut();
       });
 
       $('.open-fundio-details').click(function(e){
         e.preventDefault();
-        $(window).scrollTop(0);
+        // $(window).scrollTop(0);
         $('.fundio-details').fadeIn();
         $('header').fadeOut();
       });
 
       $('.open-podsearch2-details').click(function(e){
         e.preventDefault();
-        $(window).scrollTop(0);
+        // $(window).scrollTop(0);
         $('.podsearch2-details').fadeIn();
         $('header').fadeOut();
       });
+
+      $('.open-garage-details').click(function(e){
+        e.preventDefault();
+        // $(window).scrollTop(0);
+        $('.garage-details').fadeIn();
+        $('header').fadeOut();
+      });
+
+      $('.show-section').click(function(e){
+        e.preventDefault();
+        $('.work-section').fadeOut();
+        $('.show-section').css('color', '#262626');
+        $('.show-section').css('fontWeight', 300);
+      });
+
+      $('.show-about').click(function(e){
+        e.preventDefault();
+        $(window).scrollTop(0);
+        $('.about').fadeIn();
+        $(this).css('color', '#ff4c43');
+        $(this).css('fontWeight', 700);
+      });
+
+      $('.show-testimonials').click(function(e){
+        e.preventDefault();
+        $(window).scrollTop(0);
+        $('.testimonials').fadeIn();
+        $(this).css('color', '#ff4c43');
+        $(this).css('fontWeight', 700);
+
+        setTimeout(function(){
+          $('.fade1').css('opacity', 1);
+        }, 200);
+
+        setTimeout(function(){
+          $('.fade2').css('opacity', 1);
+        }, 400);
+
+        setTimeout(function(){
+          $('.fade3').css('opacity', 1);
+        }, 600);
+
+        setTimeout(function(){
+          $('.fade4').css('opacity', 1);
+        }, 800);
+
+        setTimeout(function(){
+          $('.fade5').css('opacity', 1);
+        }, 1000);
+
+      });
+
+      $('.show-all-work').click(function(e){
+        e.preventDefault();
+        $(window).scrollTop(0);
+        $('.all-work').fadeIn();
+        $(this).css('color', '#ff4c43');
+        $(this).css('fontWeight', 700);
+      });
+
+      $('.show-contact').click(function(e){
+        e.preventDefault();
+        $(window).scrollTop(0);
+        $('.contact').fadeIn();
+        $(this).css('color', '#ff4c43');
+        $(this).css('fontWeight', 700);
+      });
+
+      $('.show-design-work').click(function(e){
+        e.preventDefault();
+        $(window).scrollTop(0);
+        $('.design-work').fadeIn();
+        $(this).css('color', '#ff4c43');
+        $(this).css('fontWeight', 700);
+      });
+
+      $('.show-development-work').click(function(e){
+        e.preventDefault();
+        $(window).scrollTop(0);
+        $('.development-work').fadeIn();
+        $(this).css('color', '#ff4c43');
+        $(this).css('fontWeight', 700);
+      });
+
+      $('.show-vue-work').click(function(e){
+        e.preventDefault();
+        $(window).scrollTop(0);
+        $('.vue-work').fadeIn();
+        $(this).css('color', '#ff4c43');
+        $(this).css('fontWeight', 700);
+      });
+
+      $('.show-landing-pages').click(function(e){
+        e.preventDefault();
+        $(window).scrollTop(0);
+        $('.landing-pages').fadeIn();
+        $(this).css('color', '#ff4c43');
+        $(this).css('fontWeight', 700);
+      });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

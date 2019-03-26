@@ -1,3 +1,6 @@
+.work-section {
+  min-height: 100vh; }
+
 .main-content {
   width: 80vw;
   float: right;
@@ -7,13 +10,35 @@
     z-index: 10;
     padding-right: 30px;
     background-color: #f3f3f3;
-    position: absolute;
-    top: 0;
-    right: 0;
     display: none;
     height: 100%;
+    width: 80vw;
     overflow-x: scroll;
-    padding: 40px; }
+    padding: 40px;
+    position: fixed;
+    top: 0px;
+    right: 0px; }
+    .main-content .details .site-link {
+      color: #fff;
+      padding: 15px;
+      height: 50px;
+      background-color: #ff4c43;
+      font-size: 16px;
+      text-transform: uppercase;
+      text-decoration: none;
+      display: block;
+      width: 132px;
+      margin: 0 auto;
+      margin-top: -30px; }
+      .main-content .details .site-link:hover {
+        text-decoration: none;
+        background-color: #d03200; }
+      .main-content .details .site-link i {
+        font-size: 20px;
+        margin-left: 10px; }
+    .main-content .details .row {
+      height: 100%;
+      overflow: scroll; }
     .main-content .details .close-button {
       display: block;
       font-weight: 700;
@@ -49,222 +74,229 @@
       width: 100%;
       height: auto; }
 
-.all-work {
+.main-content .work-section {
   margin: 15px; }
-  .all-work .work-big {
-    width: 100%;
-    height: 570px; }
-  .all-work .work-small {
-    width: 100%;
-    height: 275px; }
-  .all-work .work {
-    margin: 15px 0;
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat; }
-  .all-work .paid-1 {
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/hana.png");
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/hana.png");
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/hana.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; }
-  .all-work .paid-2 {
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/ol-major.png");
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/ol-major.png");
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/ol-major.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; }
-    .all-work .paid-2 img {
-      width: 290px !important; }
-  .all-work .paid-3 {
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/hint.png");
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/hint.png");
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/hint.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; }
-    .all-work .paid-3 img {
-      width: 150px !important; }
-  .all-work .paid-4 {
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/fundio.png");
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/fundio.png");
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/fundio.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; }
-  .all-work .paid-5 {
-    background-image: url("../img/turing.png"); }
-  .all-work .paid-6 {
-    background-image: url("../img/platinum.png"); }
-  .all-work .paid-7 {
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/fortune.png");
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/fortune.png");
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/fortune.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; }
-  .all-work .paid-8 {
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/podsearch.png");
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/podsearch.png");
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/podsearch.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; }
-  .all-work .paid-9 {
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/hm-the-king.png");
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/hm-the-king.png");
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/hm-the-king.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; }
-    .all-work .paid-9 img {
-      width: 200px !important; }
-  .all-work .paid-10 {
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/podsearch-2.png");
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/podsearch-2.png");
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/podsearch-2.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; }
-  .all-work .paid-11 {
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/waiter-2.png");
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/waiter-2.png");
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/waiter-2.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; }
-  .all-work .paid-14 {
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/lucfest-showcase.png");
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/lucfest-showcase.png");
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/lucfest-showcase.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; }
-  .all-work .paid-15 {
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/betsentiment-showcase.png");
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/betsentiment-showcase.png");
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/betsentiment-showcase.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; }
-  .all-work .paid-16 {
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/demandscience-showcase.png");
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/demandscience-showcase.png");
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/demandscience-showcase.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; }
-  .all-work .paid-17 {
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/bitfinding-showcase.png");
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/bitfinding-showcase.png");
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/bitfinding-showcase.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; }
-  .all-work .paid-18 {
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/pureb2b-showcase.png");
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/pureb2b-showcase.png");
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/pureb2b-showcase.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; }
-  .all-work .paid-19 {
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/adgile-showcase.png");
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/adgile-showcase.png");
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/adgile-showcase.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; }
-  .all-work .paid-20 {
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/model-showcase.png");
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/model-showcase.png");
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/model-showcase.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; }
-    .all-work .paid-20 img {
-      width: 290px !important; }
-  .all-work .paid-21 {
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/patrick-1.png");
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/patrick-1.png");
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/patrick-1.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; }
-    .all-work .paid-21 img {
-      width: 160px !important; }
-  .all-work .portfolio-1 {
-    background-image: url("../img/jekyll.png"); }
-  .all-work .portfolio-2 {
-    background-image: url("../img/business.png"); }
-  .all-work .portfolio-3 {
-    background-image: url("../img/restaurant.png"); }
-  .all-work .portfolio-4 {
-    background-image: url("../img/card.png"); }
-  .all-work .portfolio-5 {
-    background-image: url("../img/travel.png"); }
-  .all-work .portfolio-6 {
-    background-image: url("../img/shoes.png"); }
-  .all-work .portfolio-7 {
-    background-image: url("../img/b-and-b-design.png"); }
-  .all-work .portfolio-8 {
-    background-image: url("../img/farmers-market-design.png"); }
-  .all-work .portfolio-9 {
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/britecore.png");
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/britecore.png");
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/britecore.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; }
-  .all-work .portfolio-10 {
-    background-image: url("../img/ice-fox.png"); }
-  .all-work .portfolio-11 {
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/open-charity.png");
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/open-charity.png");
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/open-charity.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; }
-    .all-work .portfolio-11 img {
-      width: 250px !important; }
-  .all-work .portfolio-12 {
-    background-image: url("../img/monster-game.png"); }
-  .all-work .portfolio-13 {
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/britecore-components.png");
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/britecore-components.png");
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/britecore-components.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; }
-  .all-work .portfolio-14 {
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/terminal-login.png");
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/terminal-login.png");
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/terminal-login.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; }
-    .all-work .portfolio-14 img {
-      width: 90px !important; }
-  .all-work .portfolio-15 {
-    background-image: url("../img/book-search.png"); }
-  .all-work .portfolio-16 {
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/create-ape.png");
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/create-ape.png");
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/create-ape.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; }
+.main-content .work-big {
+  width: 100%;
+  height: 570px; }
+.main-content .work-small {
+  width: 100%;
+  height: 275px; }
+.main-content .work {
+  margin: 15px 0;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat; }
+.main-content .paid-1 {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/hana.png");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/hana.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/hana.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+.main-content .paid-2 {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/ol-major.png");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/ol-major.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/ol-major.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  .main-content .paid-2 img {
+    width: 290px !important; }
+.main-content .paid-3 {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/hint.png");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/hint.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/hint.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  .main-content .paid-3 img {
+    width: 150px !important; }
+.main-content .paid-4 {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/fundio.png");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/fundio.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/fundio.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+.main-content .paid-5 {
+  background-image: url("../img/turing.png"); }
+.main-content .paid-6 {
+  background-image: url("../img/platinum.png"); }
+.main-content .paid-7 {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/fortune.png");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/fortune.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/fortune.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+.main-content .paid-8 {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/podsearch.png");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/podsearch.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/podsearch.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+.main-content .paid-9 {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/hm-the-king.png");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/hm-the-king.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/hm-the-king.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  .main-content .paid-9 img {
+    width: 200px !important; }
+.main-content .paid-10 {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/podsearch-2.png");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/podsearch-2.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/podsearch-2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+.main-content .paid-11 {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/waiter-2.png");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/waiter-2.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/waiter-2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+.main-content .paid-14 {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/lucfest-showcase.png");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/lucfest-showcase.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/lucfest-showcase.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+.main-content .paid-15 {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/betsentiment-showcase.png");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/betsentiment-showcase.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/betsentiment-showcase.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+.main-content .paid-16 {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/demandscience-showcase.png");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/demandscience-showcase.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/demandscience-showcase.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+.main-content .paid-17 {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/bitfinding-showcase.png");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/bitfinding-showcase.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/bitfinding-showcase.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+.main-content .paid-18 {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/pureb2b-showcase.png");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/pureb2b-showcase.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/pureb2b-showcase.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+.main-content .paid-19 {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/adgile-showcase.png");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/adgile-showcase.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/adgile-showcase.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+.main-content .paid-20 {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/model-showcase.png");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/model-showcase.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/model-showcase.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  .main-content .paid-20 img {
+    width: 290px !important; }
+.main-content .paid-21 {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/patrick-1.png");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/patrick-1.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/patrick-1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  .main-content .paid-21 img {
+    width: 160px !important; }
+.main-content .paid-22 {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/garage-1.png");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/garage-1.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/garage-1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+.main-content .portfolio-1 {
+  background-image: url("../img/jekyll.png"); }
+.main-content .portfolio-2 {
+  background-image: url("../img/business.png"); }
+.main-content .portfolio-3 {
+  background-image: url("../img/restaurant.png"); }
+.main-content .portfolio-4 {
+  background-image: url("../img/card.png"); }
+.main-content .portfolio-5 {
+  background-image: url("../img/travel.png"); }
+.main-content .portfolio-6 {
+  background-image: url("../img/shoes.png"); }
+.main-content .portfolio-7 {
+  background-image: url("../img/b-and-b-design.png"); }
+.main-content .portfolio-8 {
+  background-image: url("../img/farmers-market-design.png"); }
+.main-content .portfolio-9 {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/britecore.png");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/britecore.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/britecore.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+.main-content .portfolio-10 {
+  background-image: url("../img/ice-fox.png"); }
+.main-content .portfolio-11 {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/open-charity.png");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/open-charity.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/open-charity.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  .main-content .portfolio-11 img {
+    width: 250px !important; }
+.main-content .portfolio-12 {
+  background-image: url("../img/monster-game.png"); }
+.main-content .portfolio-13 {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/britecore-components.png");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/britecore-components.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/britecore-components.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+.main-content .portfolio-14 {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/terminal-login.png");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/terminal-login.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/terminal-login.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  .main-content .portfolio-14 img {
+    width: 90px !important; }
+.main-content .portfolio-15 {
+  background-image: url("../img/book-search.png"); }
+.main-content .portfolio-16 {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/create-ape.png");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/create-ape.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/create-ape.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
 
-.all-work .work {
+.main-content .work {
   position: relative; }
-  .all-work .work img {
+  .main-content .work img {
     width: 200px;
     position: relative;
     top: 50%;
     transform: translateY(-50%); }
-  .all-work .work .arrow-box {
+  .main-content .work .arrow-box {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -276,16 +308,16 @@
     color: #262626;
     background-color: #fff;
     transition: 0.3s; }
-    .all-work .work .arrow-box i {
+    .main-content .work .arrow-box i {
       font-size: 25px;
       line-height: 60px; }
-  .all-work .work:hover .red-overlay {
+  .main-content .work:hover .red-overlay {
     opacity: 1;
     transition: 0.3s; }
-  .all-work .work:hover .arrow-box {
+  .main-content .work:hover .arrow-box {
     color: #fff;
     background-color: #d03200; }
-.all-work .red-overlay {
+.main-content .red-overlay {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -306,18 +338,18 @@
   -o-transition: all .4s ease;
   transition: all .4s ease;
   text-align: left; }
-  .all-work .red-overlay .title {
+  .main-content .red-overlay .title {
     text-transform: uppercase;
     font-family: 'Open Sans', Arial, sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
     font-size: 16px; }
-  .all-work .red-overlay .white-divider {
+  .main-content .red-overlay .white-divider {
     height: 0;
     width: 40px;
     border-bottom: 2px solid #fff;
     margin: 10px 0 10px 0; }
-  .all-work .red-overlay .description {
+  .main-content .red-overlay .description {
     font-family: 'Merriweather';
     font-size: 22px; }
 

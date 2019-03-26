@@ -1,28 +1,48 @@
 .contact {
-  padding: 40px 0 60px 0;
+  padding: 0px 0 60px 0;
+  min-height: 100vh;
+  .contact-content-container {
+
+  }
+  .bold {
+    font-weight: 700;
+  }
+  h1 {
+    font-family: 'Merriweather';
+  }
+  p {
+    font-size: 20px;
+  }
   form {
     width: 400px;
     margin: 0 auto;
     p {
       text-align: left;
       margin-top: 30px;
-      font-size: 20px;
+      font-size: 18px;
     }
     input, select {
       width: 400px;
       height: 40px;
       border: 2px solid #262626;
       background: transparent;
-      border-radius: 2px;
+      border-radius: 2px !important;
       margin-top: -10px;
     }
     button {
       margin-top: 20px;
       color: #fff;
-      background-color: #262626;
-      border: 1px solid #262626;
       border-radius: 2px;
-      padding: 15px 40px;
+      padding: 10px 20px;
+      color: #fff;
+      background-color: #ff4c43;
+      font-size: 18px;
+      text-transform: uppercase;
+      &:hover {
+        text-decoration: none;
+        background-color: #d03200;
+        transition: 0.3s;
+      }
     }
   }
 }
@@ -37,6 +57,30 @@
       width: 280px;
       input, select {
         width: 280px;
+      }
+    }
+  }
+}
+
+
+@media (min-width: 1680px) and (min-height: 1000px) {
+  .contact {
+    .contact-content-container {
+      position: relative;
+      top: 20%;
+      transform: translateY(20%);
+    }
+  }
+}
+
+@media (min-width: 2500px) and (min-height: 1300px) {
+  .contact {
+    .contact-content-container {
+      position: relative;
+      top: 35%;
+      transform: translateY(35%);
+      p {
+        font-size: 25px;
       }
     }
   }

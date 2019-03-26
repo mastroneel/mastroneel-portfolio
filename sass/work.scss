@@ -1,3 +1,7 @@
+.work-section {
+  min-height: 100vh;
+}
+
 .main-content {
   width: 80vw;
   float: right;
@@ -8,13 +12,47 @@
     z-index: 10;
     padding-right: 30px;
     background-color: #f3f3f3;
-    position: absolute;
-    top: 0;
-    right: 0;
+    // position: absolute;
+    // top: 0;
+    // right: 0;
     display: none;
     height: 100%;
+    width: 80vw;
     overflow-x: scroll;
     padding: 40px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    .site-link {
+      color: #fff;
+      padding: 15px;
+      // display: block;
+      height: 50px;
+      background-color: #ff4c43;
+      // line-height: 40px;
+      font-size: 16px;
+      text-transform: uppercase;
+      text-decoration: none;
+      display: block;
+      width: 132px;
+      margin: 0 auto;
+      margin-top: -30px;
+      &:hover {
+        text-decoration: none;
+        background-color: #d03200;
+      }
+      i {
+        // background-color: #d03200;
+        // padding: 12px;
+        font-size: 20px;
+        margin-left: 10px;
+        // margin-top: 2px;
+      }
+    }
+    .row {
+      height: 100%;
+      overflow: scroll;
+    }
     .close-button {
       display: block;
       font-weight: 700;
@@ -60,8 +98,11 @@
   }
 }
 
-.all-work {
-  margin: 15px;
+.main-content {
+  .work-section {
+    margin: 15px;
+  }
+  //
   // background-color: #f3f3f3;
   // padding: 40px 0 60px 0;
   // h1 {
@@ -417,6 +458,20 @@
           width: 160px !important;
         }
   }
+  .paid-22 {
+    background:
+      -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
+      url('../img/garage-1.png');
+    background:
+        -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
+        url('../img/garage-1.png');
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
+        url('../img/garage-1.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+  }
   .portfolio-1 {
     background-image: url('../img/jekyll.png');
   }
@@ -528,7 +583,7 @@
   }
 }
 
-.all-work {
+.main-content {
   .work {
     position: relative;
     img {

@@ -1,0 +1,87 @@
+.testimonials {
+  min-height: 100vh;
+  padding: 20px 0 60px 0;
+  .testimonials-content-container {
+
+  }
+  h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 5px;
+  }
+  .gray-divider {
+    width: 40px;
+    height: 0;
+    border-bottom: 2px solid #262626;
+    margin: 15px auto;
+  }
+  .fade1,
+  .fade2,
+  .fade3,
+  .fade4,
+  .fade5 {
+    opacity: 0;
+    transition: 1s;
+  }
+  .five-stars {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    i {
+      font-size: 25px;
+      color: #ff4c43;
+    }
+  }
+  p {
+    width: 90%;
+    max-width: 1200px;
+    font-size: 18px;
+    margin: 0 auto;
+    line-height: 30px;
+  }
+  .red-quote {
+    color: #ff4c43;
+    font-family: 'Catamaran';
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .testimonials {
+    p, h3 {
+      font-size: 16px;
+    }
+  }
+}
+
+@media (min-width: 1500px) {
+  .testimonials {
+    p, h3 {
+      font-size: 22px;
+    }
+  }
+}
+
+@media (min-width: 1680px) and (min-height: 1000px) {
+  .testimonials {
+    .testimonials-content-container {
+      position: relative;
+      top: 10%;
+      transform: translateY(10%);
+    }
+  }
+}
+
+@media (min-width: 2500px) and (min-height: 1300px) {
+  .testimonials {
+    .testimonials-content-container {
+      position: relative;
+      top: 25%;
+      transform: translateY(25%);
+      p, h3 {
+        font-size: 25px;
+      }
+    }
+  }
+}

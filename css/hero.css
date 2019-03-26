@@ -43,14 +43,6 @@
   min-height: 145px;
   margin-top: 30px; }
 
-span {
-  color: #fff;
-  display: block;
-  font-weight: bold;
-  font-family: 'Poppins', sans-serif;
-  font-size: 70px;
-  text-align: center; }
-
 .typed-cursor {
   display: none; }
 

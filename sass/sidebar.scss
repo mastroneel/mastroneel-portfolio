@@ -5,13 +5,32 @@
   background-color: #fff;
   z-index: 10000;
   height: 100vh;
+  border-right: 2px solid #262626;
   ul {
     list-style-type: none;
+    position: relative;
+    top: 40%;
+    transform: translateY(-40%);
     li {
+      padding: 15px 0;
+      width: 100%;
       a, a:visited {
         text-decoration: none;
+        text-transform: uppercase;
+        // font-weight: 700;
+        font-size: 16px;
         color: #262626;
+        &.show-all-work {
+          color: #ff4c43;
+          font-weight: 700;
+        }
       }
+    }
+    .list-divider {
+      height: 0;
+      padding: 0;
+      width: 20px;
+      border: 1px solid #262626;
     }
   }
 }
@@ -115,18 +134,34 @@ header {
     list-style: none;
     margin: 50px 0 0;
     padding: 0;
+    width: 90%;
+    margin: 0 auto;
+    min-width: 290px;
+    max-width: 800px;
+    position: relative;
+    top: 40%;
+    transform: translateY(-40%);
     li {
-      text-align: center;
+      text-align: left;
       // margin-left: 50px;
-      width: 50%;
-      margin: 0 auto;
+      padding: 15px 0;
       a {
         color: #262626;
         display: block;
-        font-size: 24px;
-        padding: 25px 0;
+        font-size: 16px;
+        text-transform: uppercase;
         text-decoration: none;
+        &.show-all-work {
+          color: #ff4c43;
+          font-weight: 700;
+        }
       }
+    }
+    .list-divider {
+      height: 0;
+      padding: 0;
+      width: 20px;
+      border: 1px solid #262626;
     }
   }
 }
@@ -145,5 +180,29 @@ header {
 @media (max-width: 1100px) {
   .sidebar {
     display: none;
+  }
+}
+
+@media (min-width: 1680px) {
+  .sidebar {
+    ul {
+      li {
+        a {
+          font-size: 24px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 2500px) {
+  .sidebar {
+    ul {
+      li {
+        a {
+          font-size: 30px;
+        }
+      }
+    }
   }
 }

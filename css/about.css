@@ -1,52 +1,46 @@
 .about {
-  min-height: 100vh;
-  padding: 30px 0; }
-  .about .row {
+  min-height: 100vh; }
+  .about h3 {
+    padding-top: 60px; }
+  .about h3, .about h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px; }
+  .about p {
+    font-size: 16px;
     width: 90%;
-    margin: 10px auto; }
-    .about .row p {
-      padding: 10px 20px;
-      line-height: 1.7;
-      font-size: 16px; }
+    margin: 0 auto;
+    max-width: 1200px;
+    min-width: 290px; }
+  .about .gray-divider {
+    width: 40px;
+    height: 0;
+    border-bottom: 2px solid #262626;
+    margin: 15px auto; }
   .about i {
-    color: #66b7bd;
-    font-size: 50px;
-    margin-top: 20px; }
-  .about h3 {
-    margin-top: 30px; }
+    color: #ff4c43;
+    font-size: 40px;
+    padding-top: 60px; }
 
+@media (max-width: 767px) {
+  .testimonials p, .testimonials h3 {
+    font-size: 16px; } }
 @media (min-width: 1500px) {
-  .about .row p {
-    font-size: 25px; }
-  .about i {
-    margin-top: 60px;
-    font-size: 60px; }
-  .about h1, .about h3 {
-    font-size: 40px; } }
-@media (min-width: 1900px) {
-  .about .row p {
-    font-size: 30px; }
-  .about i {
-    margin-top: 60px;
-    font-size: 70px; }
-  .about h1, .about h3 {
-    font-size: 50px; }
-  .about h3 {
-    margin-top: 90px; } }
-@media (min-width: 2500px) {
-  .about .row p {
-    font-size: 40px; }
-  .about i {
-    margin-top: 60px;
-    font-size: 90px; }
-  .about h1, .about h3 {
-    font-size: 70px; }
-  .about h3 {
-    margin-top: 90px; } }
-@media (max-width: 450px) {
-  .about .row {
-    width: 100%; }
-    .about .row p {
-      padding: 0; } }
+  .testimonials p, .testimonials h3 {
+    font-size: 22px; } }
+@media (min-width: 1680px) and (min-height: 1000px) {
+  .about .about-content-container {
+    position: relative;
+    top: 20%;
+    transform: translateY(20%);
+    max-width: 1500px;
+    margin: 0 auto; } }
+@media (min-width: 2500px) and (min-height: 1300px) {
+  .about .about-content-container {
+    position: relative;
+    top: 35%;
+    transform: translateY(35%); }
+    .about .about-content-container p {
+      font-size: 25px; } }
 
 /*# sourceMappingURL=about.css.map */
